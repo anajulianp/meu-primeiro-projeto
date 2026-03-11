@@ -1,4 +1,4 @@
-tasks []
+tasks = []
 
 while True:
   print ("\nGerenciador de tarefas:")
