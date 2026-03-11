@@ -1,7 +1,7 @@
 tasks = []
 
 while True:
-  print ("\nGerenciador de tarefas:")
+  print("\nGerenciador de tarefas:")
   print("1- Ver tarefas")
   print("2- Adicionar tarefas")
   print("3- Sair")
@@ -13,8 +13,8 @@ if choise == "1":
 
 elif choise == "2":
   task = input("Digite a tarefa: ")
-  task.append(task)
+  tasks.append(task)
 
-elif choise == "3":
+elif choice == "3":
   break
   
